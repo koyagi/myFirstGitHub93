@@ -1,7 +1,7 @@
 ---
 ---
 
-<link rel="stylesheet" href="{{ "/css/syntax.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/css/syntax.css" | absolute_url }}">
 
 ```c++
 int main(int argc, char * argv[]) {
