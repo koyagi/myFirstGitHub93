@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		21CAEF321DAB66A400758CF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21CAEF311DAB66A400758CF3 /* main.cpp */; };
+		21CAEF641DAB793300758CF3 /* 2016-10-10-welcome-to-jekyll.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 21CAEF5D1DAB793300758CF3 /* 2016-10-10-welcome-to-jekyll.markdown */; };
+		21CAEF651DAB793300758CF3 /* about.md in Sources */ = {isa = PBXBuildFile; fileRef = 21CAEF5E1DAB793300758CF3 /* about.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,13 @@
 		21CAEF2E1DAB66A400758CF3 /* myFirstGithub93 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myFirstGithub93; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CAEF311DAB66A400758CF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		21CAEF5A1DAB76FA00758CF3 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		21CAEF5B1DAB793300758CF3 /* _config.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _config.yml; sourceTree = "<group>"; };
+		21CAEF5D1DAB793300758CF3 /* 2016-10-10-welcome-to-jekyll.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2016-10-10-welcome-to-jekyll.markdown"; sourceTree = "<group>"; };
+		21CAEF5E1DAB793300758CF3 /* about.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = about.md; sourceTree = "<group>"; };
+		21CAEF601DAB793300758CF3 /* main.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.scss; sourceTree = "<group>"; };
+		21CAEF611DAB793300758CF3 /* feed.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = feed.xml; sourceTree = "<group>"; };
+		21CAEF621DAB793300758CF3 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
+		21CAEF631DAB793300758CF3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +76,32 @@
 		21CAEF591DAB76C800758CF3 /* docs */ = {
 			isa = PBXGroup;
 			children = (
+				21CAEF5B1DAB793300758CF3 /* _config.yml */,
+				21CAEF5C1DAB793300758CF3 /* _posts */,
+				21CAEF5E1DAB793300758CF3 /* about.md */,
+				21CAEF5F1DAB793300758CF3 /* css */,
+				21CAEF611DAB793300758CF3 /* feed.xml */,
+				21CAEF621DAB793300758CF3 /* Gemfile.lock */,
+				21CAEF631DAB793300758CF3 /* index.html */,
 				21CAEF5A1DAB76FA00758CF3 /* Gemfile */,
 			);
 			path = docs;
+			sourceTree = "<group>";
+		};
+		21CAEF5C1DAB793300758CF3 /* _posts */ = {
+			isa = PBXGroup;
+			children = (
+				21CAEF5D1DAB793300758CF3 /* 2016-10-10-welcome-to-jekyll.markdown */,
+			);
+			path = _posts;
+			sourceTree = "<group>";
+		};
+		21CAEF5F1DAB793300758CF3 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				21CAEF601DAB793300758CF3 /* main.scss */,
+			);
+			path = css;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CAEF641DAB793300758CF3 /* 2016-10-10-welcome-to-jekyll.markdown in Sources */,
 				21CAEF321DAB66A400758CF3 /* main.cpp in Sources */,
+				21CAEF651DAB793300758CF3 /* about.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
