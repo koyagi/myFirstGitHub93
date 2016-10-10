@@ -10,6 +10,7 @@
 		21CAEF321DAB66A400758CF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21CAEF311DAB66A400758CF3 /* main.cpp */; };
 		21CAEF641DAB793300758CF3 /* 2016-10-10-welcome-to-jekyll.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 21CAEF5D1DAB793300758CF3 /* 2016-10-10-welcome-to-jekyll.markdown */; };
 		21CAEF651DAB793300758CF3 /* about.md in Sources */ = {isa = PBXBuildFile; fileRef = 21CAEF5E1DAB793300758CF3 /* about.md */; };
+		21CAEF671DAB996500758CF3 /* 2016-10-10-my-trial-page.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 21CAEF661DAB996500758CF3 /* 2016-10-10-my-trial-page.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		21CAEF611DAB793300758CF3 /* feed.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = feed.xml; sourceTree = "<group>"; };
 		21CAEF621DAB793300758CF3 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
 		21CAEF631DAB793300758CF3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		21CAEF661DAB996500758CF3 /* 2016-10-10-my-trial-page.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2016-10-10-my-trial-page.markdown"; sourceTree = "<group>"; };
+		21CAEF681DABA34200758CF3 /* syntax.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = syntax.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				21CAEF5D1DAB793300758CF3 /* 2016-10-10-welcome-to-jekyll.markdown */,
+				21CAEF661DAB996500758CF3 /* 2016-10-10-my-trial-page.markdown */,
 			);
 			path = _posts;
 			sourceTree = "<group>";
@@ -99,6 +103,7 @@
 		21CAEF5F1DAB793300758CF3 /* css */ = {
 			isa = PBXGroup;
 			children = (
+				21CAEF681DABA34200758CF3 /* syntax.css */,
 				21CAEF601DAB793300758CF3 /* main.scss */,
 			);
 			path = css;
@@ -164,6 +169,7 @@
 				21CAEF641DAB793300758CF3 /* 2016-10-10-welcome-to-jekyll.markdown in Sources */,
 				21CAEF321DAB66A400758CF3 /* main.cpp in Sources */,
 				21CAEF651DAB793300758CF3 /* about.md in Sources */,
+				21CAEF671DAB996500758CF3 /* 2016-10-10-my-trial-page.markdown in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
