@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		21CAEF2E1DAB66A400758CF3 /* myFirstGithub93 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myFirstGithub93; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CAEF311DAB66A400758CF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		21CAEF381DAB681100758CF3 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
+		21CAEF5A1DAB76FA00758CF3 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		21CAEF251DAB66A300758CF3 = {
 			isa = PBXGroup;
 			children = (
-				21CAEF381DAB681100758CF3 /* docs */,
+				21CAEF591DAB76C800758CF3 /* docs */,
 				21CAEF301DAB66A400758CF3 /* myFirstGithub93 */,
 				21CAEF2F1DAB66A400758CF3 /* Products */,
 			);
@@ -62,6 +62,14 @@
 				21CAEF311DAB66A400758CF3 /* main.cpp */,
 			);
 			path = myFirstGithub93;
+			sourceTree = "<group>";
+		};
+		21CAEF591DAB76C800758CF3 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				21CAEF5A1DAB76FA00758CF3 /* Gemfile */,
+			);
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
